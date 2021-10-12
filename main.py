@@ -64,6 +64,6 @@ while True:
     if keyboard.is_pressed('ctrl') == True:
         if mouseClick() == True:
             printscreen = True
-            #screendraw.createRectangle(xStartPosition,yStartPosition)
+            screendraw.createRectangle(xStartPosition,yStartPosition)
     
     
